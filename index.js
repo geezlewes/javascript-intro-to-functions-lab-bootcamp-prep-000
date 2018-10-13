@@ -4,5 +4,12 @@ function shout(string){
 function whisper(string){
   return "HELLO".toLowerCase()
 }
-function logshout(string)
-console.log(hello.toUpperCase)
+function logShout(string){
+console.log (string.toUpperCase)
+}
+function logWhisper (string){
+console.log (string.toLowerCase)
+}
+function sayHitoGrandma(string){
+  returns string.toLowerCase
+}
