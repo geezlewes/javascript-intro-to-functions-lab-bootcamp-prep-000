@@ -6,10 +6,10 @@ describe('shout(string)', function() {
 })
 describe('whisper(string)', function() {
   it('receives one argument and returns it in all lowercase', function() {
-    expect(whisper('HELLO')).toLowerCase('hello')
+    expect(whisper('HELLO')).toEqual('hello')
   })
 })
-var logshout (string)
+
 describe('logShout(string)', function() {
   it('calls console.log() its one argument in all caps', function() {
     const spy = expect.spyOn(console, 'log').andCallThrough()
